@@ -39,7 +39,7 @@ export default function TransitionsModal({ children, media_type, id }) {
   const [content, setContent] = useState();
   const [video, setVideo] = useState();
 
-  const API_KEY="33d6f4d2da86ff2803bb60658bb48436";
+  const API_KEY=process.env.REACT_APP_API_KEY;
   const handleOpen = () => {
     setOpen(true);
   };

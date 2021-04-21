@@ -17,7 +17,7 @@ import SingleContent from "../components/SingleContent/SingleContent";
 import Pagination from '../components/Pagination/Pagination'
 import Footer from "../layout-components/Footer";
 function SearchPage() {
-    const API_KEY="33d6f4d2da86ff2803bb60658bb48436";
+    const API_KEY=process.env.REACT_APP_API_KEY;
     const [type, setType] = useState(0);
     const [searchText, setSearchText] = useState("");
      const [page, setPage] = useState(1);

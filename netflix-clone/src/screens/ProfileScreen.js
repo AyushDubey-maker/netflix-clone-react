@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from "react";
-import { useSelector } from "react-redux";
-import { selectUser } from "../features/userSlice";
+
 import { auth, db } from "../firebase";
 import Nav from "../layout-components/Nav";
 import { useHistory } from "react-router-dom";
 import firebase from "firebase";
 import "./ProfileScreen.css";
 import YourSubscription from "./YourSubscription";
-import { Avatar } from "@material-ui/core";
+
 function ProfileScreen() {
   
   const [plan, setPlan] = useState([]);

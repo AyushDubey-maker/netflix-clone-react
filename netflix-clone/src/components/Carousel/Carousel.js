@@ -33,7 +33,7 @@ const Gallery = ({ id, media_type }) => {
       items: 7,
     },
   };
-  const API_KEY="33d6f4d2da86ff2803bb60658bb48436";
+  const API_KEY=process.env.REACT_APP_API_KEY;
   const fetchCredits = async () => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/${media_type}/${id}/credits?api_key=${API_KEY}&language=en-US`

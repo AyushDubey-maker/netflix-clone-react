@@ -1,5 +1,4 @@
 import React,{useState,useEffect} from 'react'
-import { auth } from '../firebase'
 import './Nav.css'
 import Ayush from '../netflix_logo.png'
 import {Link} from 'react-router-dom'
