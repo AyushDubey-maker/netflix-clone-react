@@ -1,0 +1,27 @@
+
+.footer{
+    border-top: 1px solid lightgray;
+    /* padding: 20px; */
+    /* background-color: rgb(19,26,34) ; */
+    background-color: black;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer>img{
+
+    width: 100%;
+}
+.footer_button{
+   width: 100%;
+   text-transform: inherit !important;
+}
+.footer_text{
+  background-color: black;
+    /* background-color: rgb(19,26,34); */
+}
+.footer_text>p{
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}

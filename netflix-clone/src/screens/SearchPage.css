@@ -1,0 +1,17 @@
+.search_page {
+    display: flex;
+ 
+    padding-top: 70px;
+   
+  }
+   
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.clear_icon{
+  color: white;
+  font-size: large;
+
+}

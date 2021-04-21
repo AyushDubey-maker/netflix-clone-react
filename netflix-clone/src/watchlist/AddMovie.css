@@ -1,0 +1,23 @@
+.add-body{
+    background-color: white;
+}
+.add-content {
+    padding: 100px 0;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-content .input-wrapper input {
+    width: 100%;
+    /* background-color: var(--primary); */
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+
+    font-size: 1.25rem;
+    background-color: lightgray;
+    
+  }
+  input:focus{
+    outline: none;
+  }
