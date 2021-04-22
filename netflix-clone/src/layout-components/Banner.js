@@ -40,7 +40,7 @@ function Banner({media_type,id}) {
         return string?.length>n? string.substr(0,n-1)+'....': string
 
     }
-    // const API_KEY="33d6f4d2da86ff2803bb60658bb48436";
+  
 
     return (
         <header className="banner" style={{backgroundImage:`url('https://image.tmdb.org/t/p/original/${movie?.backdrop_path}')`,

@@ -52,6 +52,11 @@ function Row({title,fetchUrl,isLargeRow=false}) {
       }
       fetchData();
     },[fetchUrl])
+
+    function truncate(string,n){
+      return string?.length>n? string.substr(0,n-1)+'....': string
+
+  }
     return (
       <div className="row">
         {/* When click on movie poster open up a Modal */}
@@ -63,7 +68,7 @@ function Row({title,fetchUrl,isLargeRow=false}) {
             <img src={`${base_URL}${
                  content.poster_path || content.backdrop_path
               }`} style={{height:'450px'}}/>
-              <p>{content.overview}</p>
+              <p>{truncate(content?.overview,250)}</p>
         
             </>
          
