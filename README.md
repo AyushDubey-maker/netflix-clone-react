@@ -41,3 +41,12 @@ Home-Page Output:
 Search-Page:
 
 <img src="./netflix-clone/git-images/netflix-search.png" >
+
+WatchList-Page:
+
+<img src="./netflix-clone/git-images/netflix-watchlist-1.png"  height="300px">
+
+<img src="./netflix-clone/git-images/netflix-watchlist-2.png" height="300px">
+
+Add to WatchList:
+<img src="./netflix-clone/git-images/netflix-add-movie.png" height="300px">
