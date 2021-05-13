@@ -23,8 +23,9 @@
 
 > ### `This app also includes Redux for the user-auth changes`
 
-> ## Code Output:
 
+<details>
+<summary>Code Output:</summary>
 <img src="./netflix-clone/git-images/netflix-1.png" >
 
 ## Sign-Up/Login Page:
@@ -54,3 +55,15 @@
 ## Add to WatchList:
 
 <img src="./netflix-clone/git-images/netflix-add-movie.png" height="300px">
+
+</details>
+
+<hr/>
+
+`Note:Do not forget to create your firebase Project and add the firebase config file in your code.`
+
+
+Get started with Firebase (Web): https://firebase.google.com/docs/web/setup
+
+Firebase React Setup:
+https://www.codementor.io/@yurio/all-you-need-is-react-firebase-4v7g9p4kf
