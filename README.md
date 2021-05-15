@@ -67,3 +67,12 @@ Get started with Firebase (Web): https://firebase.google.com/docs/web/setup
 
 Firebase React Setup:
 https://www.codementor.io/@yurio/all-you-need-is-react-firebase-4v7g9p4kf
+
+### Features 📣 :
+- Create a Netfilx demo account with authentication by Firebase auth.
+- In profile page user can handle demo  subscriptions.
+- List of movies will be displayed on Homepage fetched through https://www.themoviedb.org/ API.
+
+- User can search for movie data on SearchPage
+
+- Movies can also be added to watchlist by user.
